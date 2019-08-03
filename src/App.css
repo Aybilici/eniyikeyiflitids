@@ -1,0 +1,126 @@
+.App-logo {
+  pointer-events: none;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0px auto;
+  max-width: 600px;
+}
+
+.kutu {
+  font-size: calc(10px + 2vmin);
+  margin: 0px auto;
+  max-width: 800px;
+}
+.tikla {
+  color: orange;
+  text-align: center;
+}
+.form1 {
+  max-width: 400px;
+  float: left;
+}
+.form2 {
+  max-width: 400px;
+  float: left;
+  margin-bottom: 10px;
+}
+.kayit1 {
+  color: white;
+  margin-bottom: -7px;
+}
+.kayit2 {
+  color: white;
+  margin-bottom: -7px;
+}
+.butici {
+  margin: 0px auto;
+  width: 200px;
+}
+.butkay {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 50px;
+  height: 50px;
+  width: 200px;
+  border: none;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background-color: orange;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.butlar {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 50px;
+  height: 50px;
+  width: 200px;
+  border: none;
+  margin-top: 15px;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background-color: orange;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.butkay:hover {
+  background: #333333;
+  transition: 0.5s;
+}
+.butlar:hover {
+  background: #333333;
+  transition: 0.5s;
+}
+.butkay2 {
+  margin: 0px auto;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 50px;
+  height: 50px;
+  width: 200px;
+  border: none;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background-color: orange;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.butkay2:hover {
+  background: #333333;
+  transition: 0.5s;
+}
+.example2 {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 2em 1em 4em / 1em 4em;
+  max-width: 600px;
+  margin-left: 10px;
+}
+.iletisim {
+  width: 300px;
+  clear: both;
+  background-color: orange;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 50px;
+  border: none;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  font-weight: bold;
+  color: white;
+}
+.iletisim:hover {
+  background: #333333;
+  transition: 0.5s;
+}
+.email {
+  margin: 0px auto;
+  max-width: 300px;
+  clear: both;
+  padding-bottom: 15px;
+}
