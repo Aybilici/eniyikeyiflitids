@@ -1,5 +1,8 @@
 .App-logo {
   pointer-events: none;
+  width: 250px;
+  height: 100px;
+  margin: 10px 0px 10px 0px;
 }
 
 .App-header {
@@ -7,34 +10,37 @@
   text-align: center;
   margin-bottom: 20px;
   margin: 0px auto;
-  max-width: 600px;
 }
 
 .kutu {
   font-size: calc(10px + 2vmin);
+  max-width: 650px;
+  padding-right: 15px;
+  padding-left: 5px;
   margin: 0px auto;
-  max-width: 800px;
+  margin-bottom: 20px;
 }
 .tikla {
-  color: orange;
+  color: #f29f05;
   text-align: center;
 }
-.form1 {
-  max-width: 400px;
+.card {
+  margin-bottom: 5px;
   float: left;
+  font-size: 15px;
+  margin-left: 10px;
 }
 .form2 {
-  max-width: 400px;
+  width: 310px;
   float: left;
-  margin-bottom: 10px;
+  margin-left: 15px;
+  font-size: 13px;
 }
 .kayit1 {
   color: white;
-  margin-bottom: -7px;
 }
 .kayit2 {
   color: white;
-  margin-bottom: -7px;
 }
 .butici {
   margin: 0px auto;
@@ -44,68 +50,87 @@
   color: white;
   font-weight: bold;
   font-size: 15px;
-  border-radius: 50px;
   height: 50px;
   width: 200px;
   border: none;
   box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
-  background-color: orange;
+  background-color: #f29f05;
   cursor: pointer;
   text-transform: uppercase;
+}
+.b {
+  list-style-type: square;
 }
 .butlar {
   color: white;
   font-weight: bold;
   font-size: 15px;
-  border-radius: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
   height: 50px;
   width: 200px;
   border: none;
   margin-top: 15px;
   box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
-  background-color: orange;
+  background-color: #f29f05;
   cursor: pointer;
   text-transform: uppercase;
 }
 .butkay:hover {
-  background: #333333;
+  background: #3b4b59;
   transition: 0.5s;
 }
 .butlar:hover {
-  background: #333333;
+  background: #3b4b59;
   transition: 0.5s;
 }
 .butkay2 {
   margin: 0px auto;
   font-weight: bold;
   font-size: 15px;
-  border-radius: 50px;
   height: 50px;
   width: 200px;
   border: none;
   box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
-  background-color: orange;
+  background-color: #f29f05;
   cursor: pointer;
   text-transform: uppercase;
 }
 .butkay2:hover {
-  background: #333333;
+  background: #3b4b59;
   transition: 0.5s;
 }
 .example2 {
-  background-color: orange;
+  background-color: #3b4b59;
   color: white;
   padding: 5px;
-  font-size: 18px;
+  font-size: 24px;
   padding: 20px;
-  border-radius: 2em 1em 4em / 1em 4em;
-  max-width: 600px;
-  margin-left: 10px;
+  max-width: 880px;
+  margin: 0px auto;
+  font-family: Helvetica-Neue;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.footers {
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 15px;
+  clear: both;
+}
+.foot {
+  max-width: 800px;
+  border: 1px solid;
+  margin: 0px auto;
+}
+.container {
+  font-size: 10px;
 }
 .iletisim {
   width: 300px;
   clear: both;
-  background-color: orange;
+  background-color: #f29f05;
   cursor: pointer;
   border-radius: 50px;
   height: 50px;
